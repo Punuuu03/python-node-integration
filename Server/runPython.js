@@ -2,7 +2,7 @@ import { spawn } from "child_process";
 
 export function runPythonScript() {
   return new Promise((resolve, reject) => {
-    const pythonProcess = spawn("python", ["crime_script.py"]);
+    const pythonProcess = spawn("python", ["app.py"]);
 
     let output = "";
     let error = "";
